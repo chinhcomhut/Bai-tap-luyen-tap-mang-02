@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6</title>
+</head>
+<body>
+<script>
+    let arr = [0, '-', 2, 3, 4, '-', 'chinh', 'a'];
+    for (i = 0; i < arr.length; i++) {
+        if (arr[i] == '-') {
+            position = i;
+            arr[i] = "_";
+            document.write(position)
+        }
+    }
+    document.write("<br>" + "The array after adding element '_':    " + arr)
+</script>
+</body>
+</html>
